@@ -13,8 +13,16 @@ $ make start
 4. Verify that the services are running:
 $ docker compose ps
 
-4. Open the application in your browser:
-Go to https://localhost/ to access the application.
+4. To open the Docmost application in your browser:
+Go to https://localhost/ 
 
-5. To stop the application, run:
+4. To open the DBeaver database client in your browser:
+Go to http://localhost:8081/ 
+username: cbadmin
+password: Admin1234+
+
+5. To open the PDF guide on how to add a user in Docmost:
+Go To https://localhost/docmost-pdf-guides/add-user.pdf
+
+6. To stop the application, run:
 $ make stop 
